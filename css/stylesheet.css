@@ -1,0 +1,225 @@
+div{
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.container{
+    margin-top: 40px;
+    background-color: #9da0a7;
+}
+.space{
+    height:10px;
+}
+
+.section-box{
+    background-color: white;
+}
+.header{
+    margin-bottom:20px;
+    height:40px;
+    background-color: white;
+}
+.logo{
+    float:left;
+    width:50%;
+}
+
+.logo span{
+    color: #9a9da2;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+.logo span span{
+    color:#07cb79;
+}
+.nav-wrapper{
+    float:left;
+    width:50%;
+}
+
+.nav-wrapper .nav ul ui a{
+    color: #9a9da2;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 0 12px;
+}
+
+.nav-wrapper .nav ul ui{
+    margin-right: 8px;
+}
+
+
+.section-box{
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    padding: 50px 40px 15px 40px;
+}
+
+.row{
+    position:relative;
+}
+
+.col-xs-7 {
+    width: 50%;
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-xs-5 {
+    width: 50%;
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.profile-info {
+    color: #3d4451;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dedede;
+}
+
+.profile-photo {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+.profile-photo img {
+    width: 260px;
+    display: block;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.profile-preword span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 5px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 8px 8px;
+    border-color: transparent;
+    border-left-color: #07cb79;
+}
+
+.profile-preword span {
+    background-color: #07cb79;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: inline-block;
+    padding: 7px 12px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.profile-preword {
+    margin-bottom: 23px;
+    box-sizing: border-box;
+}
+
+.profile-title{
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.profile-title span {
+    font-weight: 300;
+}
+
+.profile-position {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+.profile-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profile-list .title {
+    display: block;
+    width: 120px;
+    float: left;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.profile-list .cont {
+    display: block;
+    margin-left: 125px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9da0a7;
+}
+.profile-social {
+    padding: 15px 0;
+    background-color: #07cb79;
+}
+
+.social {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+
+.fa{
+    vertical-align: middle;
+    color: #9e9e9e;
+}
+
+.social li .ripple-centered {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+h {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0 25px 0;
+}
+
